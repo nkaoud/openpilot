@@ -303,8 +303,8 @@ class Controls:
         self.events.add(EventName.calibrationInvalid)
 
     # Nizar test event
-    if CS.vEgo = 14:
-      self.events.add(EventName.yourFrogTriedToKillMe)
+    #if CS.vEgo = 14:
+      #self.events.add(EventName.yourFrogTriedToKillMe)
     
     # Handle lane change
     if self.sm['modelV2'].meta.laneChangeState == LaneChangeState.preLaneChange:
