@@ -302,6 +302,10 @@ class Controls:
       else:
         self.events.add(EventName.calibrationInvalid)
 
+    # Nizar test event
+    if CS.vEgo = 14:
+      self.events.add(EventName.yourFrogTriedToKillMe)
+    
     # Handle lane change
     if self.sm['modelV2'].meta.laneChangeState == LaneChangeState.preLaneChange:
       direction = self.sm['modelV2'].meta.laneChangeDirection
